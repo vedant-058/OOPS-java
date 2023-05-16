@@ -34,8 +34,9 @@ public class Stack{
         if(isempty(top))
             System.out.println("Stack is empty");
         else{
-            top--;
             int d=a[top];
+            a[top]=0;
+            top--;
             System.out.println(d);
         }
     }
@@ -51,7 +52,7 @@ public class Stack{
         if(isempty(top))
             System.out.println("Stack is empty");
         else{
-            for(int i=0;i<s;i++){
+            for(int i=0;i<=top;i++){
                 System.out.println(a[i]);
             }
         }
