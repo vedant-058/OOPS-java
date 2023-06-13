@@ -1,4 +1,4 @@
-
+package Employee;
 public class employee{
     int employeeid;
     String s;
